@@ -6,7 +6,7 @@ The library of CSS3 animation
         </p>
 
         <h1>USE</h1>
-        <p>Connect stylesheet in <span style="color:#D9843E">&lt;head&gt;</span> tag on your site:
+        <p>Connect stylesheet in <span style="color:#D9843E">&lt;head&gt;</span> tag on your site:</p>
         <pre>
             <code>
                 &lt;link rel="stylesheet" href=<span style="color:#E93838">"awesome.min.css"</span>&gt;
