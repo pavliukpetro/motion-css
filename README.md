@@ -8,7 +8,9 @@ All you need to do is connect the css file and use a specific class to an elemen
 
 <p>Connect stylesheet in <head> tag on your site:</p>
 
-<link rel = "stylesheet" href = "awesome.min.css">
+<pre>
+<code>&lt;link rel="stylesheet" href=<span style="color:#E93838">"awesome.min.css"</span>&gt;</code>
+</pre>
 
 <p>Add class "animation" to an element that should be animated. Now select the kind of animation for your item and add the appropriate class. 
 The name of the animation is the class that you have to add.
