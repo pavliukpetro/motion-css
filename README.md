@@ -14,7 +14,8 @@ All you need to do is connect the css file and use a specific class to an elemen
 The name of the animation is the class that you have to add.
 For example, I want to add animation appearance to the left. It is called "fade-in-left". Here's how it will look my element:
 </p>
-<div class="animation fade-in-left">
+<pre><code class="html">&lt;div <span style="color:#FFCE53;">class</span>=<span style="color:#E93838">"animation fade-in-left"</span>&gt;...</code></pre>
+
 
 <p>As you may have guessed, I added a class="animation fade-in-left".</p>
 
