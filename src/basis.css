@@ -1,0 +1,36 @@
+#animation
+{
+    visibility: hidden;
+}
+.animation
+{
+    visibility: visible !important;
+    animation-fill-mode: both !important;
+	-webkit-animation-fill-mode: both !important;
+}
+.replay
+{
+    -webkit-animation-iteration-count: infinite !important;
+    animation-iteration-count: infinite !important;
+}
+.delay-05s
+{
+    -webkit-animation-delay: .5s !important;
+    animation-delay: .5s !important;
+}
+.delay-1s{
+    -webkit-animation-delay: 1s !important;
+    animation-delay: 1s !important;
+}
+.delay-1-5s{
+    -webkit-animation-delay: 1.5s !important;
+    animation-delay: 1.5s !important;
+}
+.delay-2s{
+    -webkit-animation-delay: 2s !important;
+    animation-delay: 2s !important;
+}
+.delay-3s{
+    -webkit-animation-delay: 3s !important;
+    animation-delay: 3s !important;
+}
