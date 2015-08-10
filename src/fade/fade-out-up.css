@@ -1,0 +1,37 @@
+.fade-out-up
+{
+    -webkit-animation: fade-out-up 1s;
+            animation: fade-out-up 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+@-webkit-keyframes fade-out-up
+{
+    0%
+    {
+        -webkit-transform: translateY(0%);
+
+        opacity: 1;
+    }
+    100%
+    {
+        -webkit-transform: translateY(-100%);
+
+        opacity: 0;
+    }
+}
+@keyframes fade-out-up
+{
+    0%
+    {
+        transform: translateY(0%);
+
+        opacity: 1;
+    }
+    100%
+    {
+        transform: translateY(-100%);
+
+        opacity: 0;
+    }
+}
