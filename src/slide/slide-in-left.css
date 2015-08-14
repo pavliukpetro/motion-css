@@ -1,0 +1,29 @@
+.slide-in-left
+{
+    -webkit-animation: slide-in-left 1.2s;
+            animation: slide-in-left 1.2s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+}
+@-webkit-keyframes slide-in-left
+{
+    0%
+    {
+        -webkit-transform: translateX(2000px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0px);
+    }
+}
+@keyframes slide-in-left
+{
+    0%
+    {
+        transform: translateX(2000px);
+    }
+    100%
+    {
+        transform: translateX(0px);
+    }
+}

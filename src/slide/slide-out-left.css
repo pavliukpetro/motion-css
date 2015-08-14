@@ -1,0 +1,29 @@
+.slide-out-left
+{
+    -webkit-animation: slide-out-left 1.5s;
+            animation: slide-out-left 1.5s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+}
+@-webkit-keyframes slide-out-left
+{
+    0%
+    {
+        -webkit-transform: translateX(0px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(-2000px);
+    }
+}
+@keyframes slide-out-left
+{
+    0%
+    {
+        transform: translateX(0px);
+    }
+    100%
+    {
+        transform: translateX(-2000px);
+    }
+}
