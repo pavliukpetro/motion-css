@@ -1,0 +1,77 @@
+.bounce-in-down
+{
+    -webkit-animation: bounce-in-down 1.2s;
+            animation: bounce-in-down 1.2s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+@keyframes bounce-in-down
+{
+    0%
+    {
+        transform: translateY(-1000px);
+    }
+    25%
+    {
+        transform: translateY(-50px);
+    }
+    30%, 55%, 70%, 80%, 90%, 100%
+    {
+        transform: translateY(0px);
+    }
+    45%
+    {
+        transform: translateY(-25px);
+    }
+    63%
+    {
+        transform: translateY(-15px);
+    }
+    75%
+    {
+        transform: translateY(-7px);
+    }
+    85%
+    {
+        transform: translateY(-4px);
+    }
+    95%
+    {
+        transform: translateY(-2px);
+    }
+}
+@-webkit-keyframes bounce-in-down
+{
+    0%
+    {
+        -webkit-transform: translateY(-1000px);
+    }
+    25%
+    {
+        -webkit-transform: translateY(-50px);
+    }
+    30%, 55%, 70%, 80%, 90%, 100%
+    {
+        -webkit-transform: translateY(0px);
+    }
+    45%
+    {
+        -webkit-transform: translateY(-25px);
+    }
+    63%
+    {
+        -webkit-transform: translateY(-15px);
+    }
+    75%
+    {
+        -webkit-transform: translateY(-7px);
+    }
+    85%
+    {
+        -webkit-transform: translateY(-4px);
+    }
+    95%
+    {
+        -webkit-transform: translateY(-2px);
+    }
+}
