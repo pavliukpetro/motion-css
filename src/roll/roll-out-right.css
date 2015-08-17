@@ -1,0 +1,35 @@
+.roll-out-right
+{
+    -webkit-animation: roll-out-right 1.2s;
+            animation: roll-out-right 1.2s;
+}
+@keyframes roll-out-right
+{
+    0%
+    {
+        transform: translateX(0%) rotate(0deg);
+
+        opacity: 1;
+    }
+    100%
+    {
+        transform: translateX(100%) rotate(130deg);
+
+        opacity: 0;
+    }
+}
+@-webkit-keyframes roll-out-right
+{
+    0%
+    {
+        -webkit-transform: translateX(0%) rotate(0deg);
+
+        opacity: 1;
+    }
+    100%
+    {
+        -webkit-transform: translateX(100%) rotate(130deg);
+
+        opacity: 0;
+    }
+}
