@@ -1,0 +1,43 @@
+.flip-out-x
+{
+    -webkit-animation: flip-out-x 1s;
+            animation: flip-out-x 1s;
+}
+@keyframes flip-out-x
+{
+    0%
+    {
+        transform: perspective(500px) rotateX(0deg);
+    }
+    50%
+    {
+        transform: perspective(500px) rotateX(-30deg);
+
+        opacity: 1;
+    }
+    100%
+    {
+        transform: perspective(500px) rotateX(70deg);
+
+        opacity: 0;
+    }
+}
+@-webkit-keyframes flip-out-x
+{
+    0%
+    {
+        -webkit-transform: perspective(500px) rotateX(0deg);
+    }
+    50%
+    {
+        -webkit-transform: perspective(500px) rotateX(-30deg);
+
+        opacity: 1;
+    }
+    100%
+    {
+        -webkit-transform: perspective(500px) rotateX(70deg);
+
+        opacity: 0;
+    }
+}

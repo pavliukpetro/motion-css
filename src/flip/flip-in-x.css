@@ -1,0 +1,63 @@
+.flip-in-x
+{
+    -webkit-animation: flip-in-x 1.2s;
+            animation: flip-in-x 1.2s;
+}
+@keyframes flip-in-x
+{
+    0%
+    {
+        transform: perspective(500px) rotateX(70deg);
+
+        opacity: .2;
+    }
+    30%
+    {
+        transform: perspective(500px) rotateX(-50deg);
+    }
+    45%
+    {
+        transform: perspective(500px) rotateX(30deg);
+    }
+    65%
+    {
+        transform: perspective(500px) rotateX(-20deg);
+    }
+    85%
+    {
+        transform: perspective(500px) rotateX(10deg);
+    }
+    100%
+    {
+        transform: perspective(500px) rotateX(0deg);
+    }
+}
+@-webkit-keyframes flip-in-x
+{
+    0%
+    {
+        -webkit-transform: perspective(500px) rotateX(70deg);
+
+        opacity: .2;
+    }
+    30%
+    {
+        -webkit-transform: perspective(500px) rotateX(-50deg);
+    }
+    45%
+    {
+        -webkit-transform: perspective(500px) rotateX(30deg);
+    }
+    65%
+    {
+        -webkit-transform: perspective(500px) rotateX(-20deg);
+    }
+    85%
+    {
+        -webkit-transform: perspective(500px) rotateX(10deg);
+    }
+    100%
+    {
+        -webkit-transform: perspective(500px) rotateX(0deg);
+    }
+}
