@@ -1,0 +1,41 @@
+.rotate-in
+{
+    -webkit-animation: rotate-in 1s;
+            animation: rotate-in 1s;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+}
+@keyframes rotate-in
+{
+    0%
+    {
+        transform: rotate(-0deg);
+
+        opacity: 0;
+    }
+    80%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate-in
+{
+    0%
+    {
+        -webkit-transform: rotate(-0deg);
+
+        opacity: 0;
+    }
+    80%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        -webkit-transform: rotate(360deg);
+    }
+}

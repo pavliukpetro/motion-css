@@ -1,0 +1,41 @@
+.rotate-out-3d
+{
+    -webkit-animation: rotate-out-3d 1s;
+            animation: rotate-out-3d 1s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+}
+@keyframes rotate-out-3d
+{
+    0%
+    {
+        transform: rotate3d(1, 1, 0, 360deg);
+    }
+    40%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: rotate3d(1, 1, 0, 0deg);
+
+        opacity: 0;
+    }
+}
+@-webkit-keyframes rotate-out-3d
+{
+    0%
+    {
+        -webkit-transform: rotate3d(1, 1, 0, 360deg);
+    }
+    40%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        -webkit-transform: rotate3d(1, 1, 0, 0deg);
+
+        opacity: 0;
+    }
+}
