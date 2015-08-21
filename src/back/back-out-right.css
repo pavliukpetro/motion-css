@@ -1,0 +1,50 @@
+.back-out-right
+{
+    -webkit-animation: back-out-right 1.5s;
+            animation: back-out-right 1.5s;
+
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+}
+@keyframes back-out-right
+{
+    0%
+    {
+        transform: scale(1);
+
+        opacity: 1;
+    }
+    20%
+    {
+        transform: translateX(0px) scale(.7);
+
+        opacity: .7;
+    }
+    100%
+    {
+        transform: translateX(2000px) scale(.7);
+
+        opacity: .7;
+    }
+}
+@-webkit-keyframes back-out-right
+{
+    0%
+    {
+        -webkit-transform: scale(1);
+
+        opacity: 1;
+    }
+    20%
+    {
+        -webkit-transform: translateX(0px) scale(.7);
+
+        opacity: .7;
+    }
+    100%
+    {
+        -webkit-transform: translateX(2000px) scale(.7);
+
+        opacity: .7;
+    }
+}

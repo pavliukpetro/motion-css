@@ -1,0 +1,49 @@
+.back-in-up
+{
+    -webkit-animation: back-in-up 1.5s;
+            animation: back-in-up 1.5s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+@keyframes back-in-up
+{
+    0%
+    {
+        transform: translateY(1200px) scale(.7);
+
+        opacity: .7;
+    }
+    80%
+    {
+        transform: translateY(0px) scale(.7);
+
+        opacity: .7;
+    }
+    100%
+    {
+        transform: scale(1);
+
+        opacity: 1;
+    }
+}
+@-webkit-keyframes back-in-up
+{
+    0%
+    {
+        -webkit-transform: translateY(1200px) scale(.7);
+
+        opacity: .7;
+    }
+    80%
+    {
+        -webkit-transform: translateY(0px) scale(.7);
+
+        opacity: .7;
+    }
+    100%
+    {
+        -webkit-transform: scale(1);
+
+        opacity: 1;
+    }
+}

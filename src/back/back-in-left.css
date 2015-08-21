@@ -1,0 +1,49 @@
+.back-in-left
+{
+    -webkit-animation: back-in-left 1.5s;
+            animation: back-in-left 1.5s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+@keyframes back-in-left
+{
+    0%
+    {
+        transform: translateX(2000px) scale(.7);
+
+        opacity: .7;
+    }
+    80%
+    {
+        transform: translateX(0px) scale(.7);
+
+        opacity: .7;
+    }
+    100%
+    {
+        transform: scale(1);
+
+        opacity: 1;
+    }
+}
+@-webkit-keyframes back-in-left
+{
+    0%
+    {
+        -webkit-transform: translateX(2000px) scale(.7);
+
+        opacity: .7;
+    }
+    80%
+    {
+        -webkit-transform: translateX(0px) scale(.7);
+
+        opacity: .7;
+    }
+    100%
+    {
+        -webkit-transform: scale(1);
+
+        opacity: 1;
+    }
+}
