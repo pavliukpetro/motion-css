@@ -1,0 +1,41 @@
+.turn-out-y
+{
+    -webkit-animation: turn-out-y 1s;
+            animation: turn-out-y 1s;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+}
+@keyframes turn-out-y
+{
+    0%
+    {
+        transform: rotateY(0deg) scale(1);
+
+        opacity: 1;
+    }
+    80%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        transform: rotateY(360deg) scale(0);
+    }
+}
+@-webkit-keyframes turn-out-y
+{
+    0%
+    {
+        -webkit-transform: rotateY(0deg) scale(1);
+
+        opacity: 1;
+    }
+    80%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        -webkit-transform: rotateY(360deg) scale(0);
+    }
+}
