@@ -1,0 +1,37 @@
+.push-in-left
+{
+    -webkit-transform-origin: 100% 50% 0;
+    transform-origin: 100% 50% 0;
+    -webkit-animation: push-in-left 1s;
+            animation: push-in-left 1s;
+
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    transform-style: preserve-3d;
+}
+@keyframes push-in-left
+{
+    0%
+    {
+        transform: rotateY(-90deg);
+
+        opacity: 0;
+    }
+    100%
+    {
+        transform: none;
+    }
+}
+@-webkit-keyframes push-in-left
+{
+    0%
+    {
+        -webkit-transform: rotateY(-90deg);
+
+        opacity: 0;
+    }
+    100%
+    {
+        -webkit-transform: none;
+    }
+}

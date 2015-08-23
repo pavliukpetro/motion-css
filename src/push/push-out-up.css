@@ -1,0 +1,36 @@
+.push-out-up
+{
+    -webkit-transform-origin: 50% 0 0;
+            transform-origin: 50% 0 0;
+    -webkit-animation: push-out-up 1s;
+            animation: push-out-up 1s;
+
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+}
+@keyframes push-out-up
+{
+    0%
+    {
+        transform: none;
+    }
+    100%
+    {
+        transform: rotateX(-90deg);
+
+        opacity: 0;
+    }
+}
+@-webkit-keyframes push-out-up
+{
+    0%
+    {
+        -webkit-transform: none;
+    }
+    100%
+    {
+        -webkit-transform: rotateX(-90deg);
+
+        opacity: 0;
+    }
+}
