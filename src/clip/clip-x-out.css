@@ -1,0 +1,29 @@
+.clip-x-out
+{
+    -webkit-animation: clip-x-out 1s;
+            animation: clip-x-out 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+@keyframes clip-x-out
+{
+    0%
+    {
+        transform: none;
+    }
+    100%
+    {
+        transform: scale(1, 0);
+    }
+}
+@-webkit-keyframes clip-x-out
+{
+    0%
+    {
+        -webkit-transform: none;
+    }
+    100%
+    {
+        -webkit-transform: scale(1, 0);
+    }
+}

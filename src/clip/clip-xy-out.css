@@ -1,0 +1,37 @@
+.clip-xy-out
+{
+    -webkit-animation: clip-xy-out 1s;
+            animation: clip-xy-out 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+@keyframes clip-xy-out
+{
+    0%
+    {
+        transform: none;
+    }
+    50%
+    {
+        transform: scale(1, .5);
+    }
+    100%
+    {
+        transform: scale(0, .5);
+    }
+}
+@-webkit-keyframes clip-xy-out
+{
+    0%
+    {
+        -webkit-transform: none;
+    }
+    50%
+    {
+        -webkit-transform: scale(1, .5);
+    }
+    100%
+    {
+        -webkit-transform: scale(0, .5);
+    }
+}

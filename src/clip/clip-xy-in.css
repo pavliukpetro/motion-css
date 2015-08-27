@@ -1,0 +1,39 @@
+.clip-xy-in
+{
+    -webkit-animation: clip-xy-in 1s;
+            animation: clip-xy-in 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+@keyframes clip-xy-in
+{
+    0%
+    {
+        transform: scale(0, .5);
+        
+    }
+    50%
+    {
+        transform: scale(1, .5);
+    }
+    100%
+    {
+        transform: none;
+    }
+}
+@-webkit-keyframes clip-xy-in
+{
+    0%
+    {
+        -webkit-transform: scale(0, .5);
+        
+    }
+    50%
+    {
+        -webkit-transform: scale(1, .5);
+    }
+    100%
+    {
+        -webkit-transform: none;
+    }
+}
