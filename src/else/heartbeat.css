@@ -1,0 +1,31 @@
+.heartbeat
+{
+    -webkit-animation: heartbeat 8s;
+            animation: heartbeat 8s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+@keyframes heartbeat
+{
+    0%, 20%, 40%, 60%, 80%, 100%
+    {
+        transform: scale(1);
+    }
+    10%, 30%, 50%, 70%, 90%
+    {
+        transform: scale(1.15);
+    }
+}
+@-webkit-keyframes heartbeat
+{
+    0%, 20%, 40%, 60%, 80%, 100%
+    {
+        -webkit-transform: scale(1);
+    }
+    10%, 30%, 50%, 70%, 90%
+    {
+        -webkit-transform: scale(1.15);
+    }
+}

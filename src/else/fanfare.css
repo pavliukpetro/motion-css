@@ -1,0 +1,37 @@
+.fanfare
+{
+    -webkit-animation: fanfare 1.2s;
+            animation: fanfare 1.2s;
+}
+@keyframes fanfare
+{
+    0%, 100% {
+    transform: scale(1);
+  }
+
+30% {
+    transform: scale(.8) rotateZ(5deg);
+  }
+  40%, 60%, 80% {
+    transform: scale(1.15) rotateZ(-5deg);
+  }
+50%, 70%, 90% {
+    transform: scale(1.15) rotateZ(5deg);
+  }
+}
+@-webkit-keyframes fanfare
+{
+    0%, 100% {
+    -webkit-transform: scale(1);
+  }
+
+30% {
+    -webkit-transform: scale(.8) rotateZ(5deg);
+  }
+  40%, 60%, 80% {
+    -webkit-transform: scale(1.15) rotateZ(-5deg);
+  }
+50%, 70%, 90% {
+    -webkit-transform: scale(1.15) rotateZ(5deg);
+  }
+}

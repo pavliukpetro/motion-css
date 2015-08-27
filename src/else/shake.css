@@ -1,0 +1,37 @@
+.shake
+{
+    -webkit-animation: shake 1s;
+            animation: shake 1s;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+}
+@keyframes shake
+{
+    0%, 100%
+    {
+        transform: translateX(0px);
+    }
+    12.5%, 37.5%, 62.5%, 87.5%
+    {
+        transform: translateX(20px);
+    }
+    25%, 50%, 75%
+    {
+        transform: translateX(-20px);
+    }
+}
+@-webkit-keyframes shake
+{
+    0%, 100%
+    {
+        -webkit-transform: translateX(0px);
+    }
+    12.5%, 37.5%, 62.5%, 87.5%
+    {
+        -webkit-transform: translateX(20px);
+    }
+    25%, 50%, 75%
+    {
+        -webkit-transform: translateX(-20px);
+    }
+}

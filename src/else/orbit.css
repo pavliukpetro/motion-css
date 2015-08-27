@@ -1,0 +1,27 @@
+.orbit
+{
+    -webkit-animation: orbit 3s;
+            animation: orbit 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+@keyframes orbit
+{
+    0% {
+    transform: rotate(0deg) translateX(20px) rotate(0deg);
+}
+100% {
+    transform: rotate(360deg) translateX(20px) rotate(-360deg);
+}
+}
+@-webkit-keyframes orbit
+{
+    0% {
+    -webkit-transform: rotate(0deg) translateX(20px) rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg) translateX(20px) rotate(-360deg);
+}
+}

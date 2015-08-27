@@ -1,0 +1,31 @@
+.scale-in
+{
+    -webkit-animation: scale-in 1.5s;
+            animation: scale-in 1.5s;
+}
+@keyframes scale-in
+{
+    0%
+    {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes scale-in
+{
+    0%
+    {
+        -webkit-transform: scale(0);
+        opacity: 0;
+    }
+    100%
+    {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}

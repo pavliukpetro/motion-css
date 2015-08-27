@@ -1,0 +1,35 @@
+.pulse
+{
+    -webkit-animation: pulse 1s;
+            animation: pulse 1s;
+}
+@keyframes pulse
+{
+    0%
+    {
+        transform: none;
+    }
+    50%
+    {
+        transform: scale(1.15);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes pulse
+{
+    0%
+    {
+        -webkit-transform: none;
+    }
+    50%
+    {
+        -webkit-transform: scale(1.15);
+    }
+    100%
+    {
+        -webkit-transform: scale(1);
+    }
+}

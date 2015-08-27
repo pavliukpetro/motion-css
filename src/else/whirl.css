@@ -1,0 +1,35 @@
+.whirl
+{
+    -webkit-animation: whirl 2s;
+            animation: whirl 2s;
+}
+@keyframes whirl
+{
+    0%
+    {
+        transform: translateY(1000px) rotateY(0deg);
+    }
+    80%
+    {
+        transform: translateY(-100%) rotateY(720deg);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+@-webkit-keyframes whirl
+{
+    0%
+    {
+        -webkit-transform: translateY(1000px) rotateY(0deg);
+    }
+    80%
+    {
+        -webkit-transform: translateY(-100%) rotateY(720deg);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0px);
+    }
+}

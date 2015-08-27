@@ -1,0 +1,33 @@
+.puff
+{
+    -webkit-animation: puff 1s;
+            animation: puff 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+}
+@keyframes puff
+{
+    0%
+    {
+        transform: none;
+    }
+    100%
+    {
+        transform: scale(1.2);
+
+        opacity: 0;
+    }
+}
+@-webkit-keyframes puff
+{
+    0%
+    {
+        -webkit-transform: none;
+    }
+    100%
+    {
+        -webkit-transform: scale(1.2);
+
+        opacity: 0;
+    }
+}

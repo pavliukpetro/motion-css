@@ -1,0 +1,77 @@
+.wabble
+{
+    -webkit-transform-origin: 50% 0 0;
+    transform-origin: 50% 0 0;
+    -webkit-animation: wabble 1.2s;
+            animation: wabble 1.2s;
+}
+@keyframes wabble
+{
+    0%, 100%
+    {
+        transform: rotateZ(0deg);
+    }
+    12.5%
+    {
+        transform: rotateZ(-20deg);
+    }
+    25%
+    {
+        transform: rotateZ(18deg);
+    }
+    37.5%
+    {
+        transform: rotateZ(-15deg);
+    }
+    50%
+    {
+        transform: rotateZ(13deg);
+    }
+    62.5%
+    {
+        transform: rotateZ(-10deg);
+    }
+    75%
+    {
+        transform: rotateZ(7deg);
+    }
+    87.5%
+    {
+        transform: rotateZ(-3deg);
+    }
+}
+@-webkit-keyframes wabble
+{
+    0%, 100%
+    {
+        -webkit-transform: rotateZ(0deg);
+    }
+    12.5%
+    {
+        -webkit-transform: rotateZ(-20deg);
+    }
+    25%
+    {
+        -webkit-transform: rotateZ(18deg);
+    }
+    37.5%
+    {
+        -webkit-transform: rotateZ(-15deg);
+    }
+    50%
+    {
+        -webkit-transform: rotateZ(13deg);
+    }
+    62.5%
+    {
+        -webkit-transform: rotateZ(-10deg);
+    }
+    75%
+    {
+        -webkit-transform: rotateZ(7deg);
+    }
+    87.5%
+    {
+        -webkit-transform: rotateZ(-3deg);
+    }
+}

@@ -1,0 +1,42 @@
+.scale-out
+{
+    -webkit-animation: scale-out 1s;
+            animation: scale-out 1s;
+}
+@keyframes scale-out
+{
+    0%
+    {
+        transform: none;
+
+        opacity: 1;
+    }
+    80%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes scale-out
+{
+    0%
+    {
+        -webkit-transform: none;
+
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: .7;
+    }
+    100%
+    {
+        -webkit-transform: scale(0);
+
+        opacity: 0;
+    }
+}

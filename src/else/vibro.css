@@ -1,0 +1,35 @@
+.vibro
+{
+    -webkit-animation: vibro .5s;
+            animation: vibro .5s;
+}
+@keyframes vibro
+{
+    0%, 100%
+    {
+        transform: translateX(0px);
+    }
+    10%, 30%, 50%, 70%, 90%
+    {
+        transform: translateX(5px);
+    }
+    20%, 40%, 60%, 80%
+    {
+        transform: translateX(-5px);
+    }
+}
+@-webkit-keyframes vibro
+{
+    0%, 100%
+    {
+        -webkit-transform: translateX(0px);
+    }
+    10%, 30%, 50%, 70%, 90%
+    {
+        -webkit-transform: translateX(5px);
+    }
+    20%, 40%, 60%, 80%
+    {
+        -webkit-transform: translateX(-5px);
+    }
+}
