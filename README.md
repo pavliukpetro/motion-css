@@ -1,7 +1,7 @@
-# Awesome-CSS3-animation
+# motion-css
 The library of CSS3 animation
 
-<p><b>Awesome CSS3 animation</b> is a library of animation for your web projects. It works very simply.
+<p><b>Motion CSS</b> is a library of animation for your web projects. It works very simply.
 All you need to do is connect the css file and use a specific class to an element that should be animated.</p>
 <p>The complete list of classes, see <a href="http://pavlyukpetr.com/awesome/">here</a> and here is some <a href="http://pavlyukpetr.com/awesome/example.html">example</a>.</p>
 
@@ -9,7 +9,7 @@ All you need to do is connect the css file and use a specific class to an elemen
 
 <p>Connect stylesheet in &lt;head&gt; tag on your site:</p>
 
-<pre><code>&lt;link rel="stylesheet" href=<span style="color:#E93838">"awesome.min.css"</span>&gt;</code></pre>
+<pre><code>&lt;link rel="stylesheet" href=<span style="color:#E93838">"motion.min.css"</span>&gt;</code></pre>
 
 <p>Add class "animation" to an element that should be animated. Now select the kind of animation for your item and add the appropriate class. 
 The name of the animation is the class that you have to add.
