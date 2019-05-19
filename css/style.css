@@ -1,0 +1,539 @@
+﻿/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{
+	display: block;
+}
+html{
+	font-size: 100%;
+	overflow-x: hidden;
+	height: 100%;
+	line-height: 1;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	background: none repeat scroll 0 0 #35334c;
+	height: 100%;
+}
+img {
+	max-width: 100%;
+}
+p {
+	font-size: 20px;
+	line-height: 30px;
+	color: #e2e2e2;
+}
+h1{
+	font-size: 60px;
+	color: #fff;
+	padding: 30px 0;
+}
+.wrapper h1{
+	margin-bottom: 80px;
+	display: inline-block;
+}
+h2 {
+	font-size: 2rem;
+	padding-bottom: 30px;
+}
+a{
+	color: #e2e2e2;
+}
+a:hover {
+	color: #48bd82;
+}
+/*header span{
+	display: none;
+}*/
+.center{
+	text-align: center;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header{
+	position: relative;
+	z-index: 99;
+	padding: 11px 1%;
+	width: 98%;
+	height: 46px;
+}
+.wrap-header{
+	background: none repeat scroll 0 0 #3d3b59;
+	height: 56px;
+}
+.header h1{
+	line-height: 56px;
+	padding: 0 0 0 30px;
+	margin: 0;
+	font-size: 26px;
+}
+header a {
+	text-decoration: none;
+}
+.header img{
+	vertical-align: middle;
+	padding: 15px 0;
+}
+nav{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}
+nav a{
+	padding: 0 10px;
+	font-family: Lato;
+	text-decoration: none;
+	color: #eaeaea;
+}
+.main {
+	height: calc(100% - 68px);
+	height: -webkit-calc(100% - 68px);
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle{
+	position: relative;
+	z-index: 9;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.middle:after{
+	display: table;
+	clear: both;
+	content: '';
+}
+.shadow{
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, .04);
+}
+.light{
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	left: 50%;
+	width: 807px;
+	margin-left: -403px;
+}
+.container{
+	display: table;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.content{
+	display: table-cell;
+	vertical-align: middle;
+}
+.wrap{
+	display: inline-block;
+	margin-top: -100px;
+	perspective: 850px;
+}
+
+.clip-x-in img, .clip-x-out img{
+	display: none;
+}
+.clip-y-in img, .clip-y-out img{
+	display: none;
+}
+.clip-xy-in img, .clip-xy-out img{
+	display: none;
+}
+.heart{
+	display: none;
+}
+.heartbeat .heart{
+	display: block !important;
+}
+.heartbeat .superman{
+	display: none;
+}
+.red-square{
+	display: none;
+	border-radius: 3px;
+	width: 240px;
+	height: 230px;
+	background: #E93838;
+}
+.clip-x-in .red-square, .clip-x-out .red-square{
+	display: block;
+}
+.clip-y-in .red-square, .clip-y-out .red-square{
+	display: block;
+}
+.clip-xy-in .red-square, .clip-xy-out .red-square{
+	display: block;
+}
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar{
+	position: absolute;
+	z-index: 99;
+
+	float: left;
+
+	width: 200px;
+	margin-top: 100px;
+
+	text-align: left;
+}
+.left-sidebar li{
+	line-height: 20px;
+
+	padding: 0 20px;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+}
+.side-container label{
+	font-size: 18px;
+	line-height: 20px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height: 20px;
+	padding: 5px 20px;
+	cursor: pointer;
+	color: #f4d472;
+}
+.side-container label:hover{
+	background: none repeat scroll 0 0 #48bd82;
+}
+.side-container input:checked + label,
+.side-container input:checked + label:hover{
+	background: none repeat scroll 0 0 #48bd82;
+}
+.side-container label:hover:after,
+.side-container input:checked + label:hover:after{
+	position: absolute;
+	top: 7px;
+	right: 13px;
+	width: 24px;
+	height: 24px;
+	content: '';
+}
+.side-container input{
+	display: none;
+}
+.side-container ul{
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	right: -145px;
+	overflow: hidden;
+	width: 160px;
+	height: 0;
+	margin-top: -1px;
+	-webkit-transition: height .3s ease-in-out -1s, box-shadow .6s linear;
+	   -moz-transition: height .3s ease-in-out -1s, box-shadow .6s linear;
+		-ms-transition: height .3s ease-in-out -1s, box-shadow .6s linear;
+		 -o-transition: height .3s ease-in-out -1s, box-shadow .6s linear;
+			transition: height .3s ease-in-out -1s, box-shadow .6s linear;
+}
+.side-container input:checked ~ ul{
+	-webkit-transition: height .5s ease-in-out, box-shadow .1s linear;
+	   -moz-transition: height .5s ease-in-out, box-shadow .1s linear;
+		-ms-transition: height .5s ease-in-out, box-shadow .1s linear;
+		 -o-transition: height .5s ease-in-out, box-shadow .1s linear;
+			transition: height .5s ease-in-out, box-shadow .1s linear;
+}
+.side-container input:checked ~ ul.small{
+	height: 150px;
+}
+.side-container input:checked ~ ul.medium{
+	height: 240px;
+}
+.side-container input:checked ~ ul.big{
+	height: 500px;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 96%;
+	padding: 11px 2%;
+	background: none repeat scroll 0 0 #2f2d42;
+	z-index: 9;
+	display: inline-block;
+}
+footer div{
+	float: left;
+	color: #eaeaea;
+}
+.write{
+	width: 20%;
+	font-size: 14px;
+}
+.copyright{
+	line-height: 26px;
+	width: 60%;
+	text-align: center;
+}
+.creators{
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: -7px;
+	text-align: right;
+	width: 20%;
+}
+/*Example*/
+section{
+	padding: 100px 0;
+}
+#example1 {
+	padding: 0;
+}
+#example1 h1 {
+	padding-bottom: 50px;
+}
+.superman-block {
+	float: left;
+	text-align: right;
+	width: 50%;
+}
+.say-it {
+	background: none repeat scroll 0 0 #8c88ba;
+	border-radius: 3px;
+	color: #fff;
+	float: left;
+	height: 60px;
+	font-size: 1.4rem;
+	line-height: 60px;
+	margin-left: 40px;
+	margin-top: 65px;
+	text-align: center;
+	width: 171px;
+	position: relative;
+}
+.say-it:after {
+	border-bottom: 20px solid transparent;
+	border-right: 20px solid #8c88ba;
+	content: "";
+	height: 0;
+	left: -20px;
+	position: absolute;
+	top: 10px;
+	width: 0;
+}
+#example2 {
+	background: none repeat scroll 0 0 #67E667;
+	padding-bottom: 140px;
+}
+#example2 h1{
+	color: #7d2e9f;
+}
+#example3 .wrapper{
+	perspective: 500px;
+}
+.wrapper {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 20px;
+	position: relative;
+	width: 90%;
+}
+*:before, *:after {
+	box-sizing: border-box;
+}
+.clearfix:after {
+	display: block;
+}
+.clearfix:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+.col-1-3 {
+	float: left;
+	height: 125px;
+	padding: 0 37px 0 0;
+	width: 30%;
+	position: relative;
+}
+.col-1-3:before {
+	background: url("../img/arrow.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	content: " ";
+	height: 53px;
+	position: absolute;
+	top: -7px;
+	right: 0;
+	width: 138px;
+}
+.col-1-3:last-child:before {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.col-1-3:last-child {
+	padding: 0;
+}
+.col-1-3 .number {
+	font-size: 48px;
+	color: #ffffff;
+}
+.pattern-text {
+}
+.pattern-text > p {
+	color: #fff;
+	font-size: 1.6rem;
+	line-height: 2rem;
+	margin: 0;
+	padding: 6px;
+	text-align: center;
+}
+#example3{
+	background: none repeat scroll 0 0 #2e6da2;
+	padding: 100px 0;
+}
+article {
+	display: block;
+	overflow: auto;
+	padding: 60px 0;
+	color: #fff;
+}
+article .wrapper, #example4 .wrapper {
+	perspective: 500px;
+	-webkit-perspective: 500px;
+}
+.col-1-2 {
+	float: left;
+	width: 48%;
+}
+.thumb {
+	text-align: right;
+	margin-top: 7px;
+	height: 365px;
+}
+.post-content {
+	padding-left: 25px;
+}
+code {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+	color: #e2e2e2;
+	font-size: 20px;
+	margin-top: 15px;
+	display: block;
+	border-radius: 3px;
+	line-height: 24px;
+	padding: 15px;
+	position: relative;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+#example4 {
+	background: none repeat scroll 0 0 #f9c74a;
+	padding-bottom: 150px;
+}
+.wow {
+	font-size: 82px;
+	color: #35334c;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#example4 span {
+	display: inline-block;
+}
+h1#animation > span {
+	color: #f2223b;
+	font-weight: 700;
+}
+#example5 {
+	background: none repeat scroll 0 0 teal;
+}
+#example6 {
+	padding: 100px 0;
+}
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #00B454;
+	-webkit-box-shadow: 3px 4px 0px 0px #00B454;
+	box-shadow: 3px 4px 0px 0px #00B454;
+	background-color:#36da82;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size: 2.3rem;;
+	font-weight:bold;
+	padding:16px 41px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#007536;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+footer.example{
+	position: relative;
+}
+#documentation h1 {
+	margin-bottom: 0;
+}
+@media screen and (max-width:768px){
+	.header h1 {
+		text-align: center;
+	}
+	.write, .copyright, .creators {
+		left: 0;
+		text-align: center;
+		width: 100%;
+	}
+	footer{
+		height: 85px;
+	}
+	footer.fixed{
+		position: fixed;
+	}
+	nav {
+		padding-bottom: 11px;
+		position: relative;
+		right: 0;
+		text-align: center;
+		top: 0;
+	}
+}
+/*Screen < 1024px */
+@media screen and (max-width:1024px){
+	.col-1-2{
+		float: none;
+
+		width: 100%;
+		padding: 10px 0;
+	}
+	.col-1-3{
+		float: none;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.col-1-3:last-child{
+		padding: 10px 0;
+	}
+	#example1 h1{
+		padding-top: 70px;
+	}
+	.superman-block{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.say-it{
+		display: none;
+	}
+	.thumb.col-1-2{
+		text-align: center;
+	}
+}

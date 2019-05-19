@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>Awesome CSS3 animation</title>
+	<meta name="keywords" content="css3 animation" />
+	<meta name="description" content="CSS3 animation of HTML documents without using JavaScript" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/motion.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="shadow"></div>
+	<img src="img/light.png" class="light">
+	<header class="header">
+		<div class="wrap-header">
+			<h1>
+				<a href="http://pavlyukpetr.com/awesome/">
+					<!--<img src="img/logo.png">--><span>Motion CSS</span>
+				</a>
+			</h1>
+			<nav>
+				<a href="documentation.html">documentation</a>
+				<a href="example.html">example</a>
+				<a href="http://pavlyukpetr.com/awesome/motion-css.zip">download</a>
+				<a href="https://github.com/pavlyukpetr/motion-css" target="_blank">GitHub</a>
+			</nav> 
+		</div>
+	</header><!-- .header-->
+	
+	<div class="main">
+	<aside class="left-sidebar">
+		<div class="side-container">
+			<div>
+				<input type="radio" name="on" id="on1" checked/>
+				<label for="on1">Fade</label>
+				<ul class="medium">
+					<li><a id="fade-in" class="trigger" href="#">fade-in</a></li>
+					<li><a id="fade-out" class="trigger" href="#">fade-out</a></li>
+					<li><a id="fade-in-right" class="trigger" href="#">fade-in-right</a></li>
+					<li><a id="fade-in-left" class="trigger" href="#">fade-in-left</a></li>
+					<li><a id="fade-in-up" class="trigger" href="#">fade-in-up</a></li>
+					<li><a id="fade-in-down" class="trigger" href="#">fade-in-down</a></li>	
+					<li><a id="fade-out-right" class="trigger" href="#">fade-out-right</a></li>
+					<li><a id="fade-out-left" class="trigger" href="#">fade-out-left</a></li>
+					<li><a id="fade-out-up" class="trigger" href="#">fade-out-up</a></li>
+					<li><a id="fade-out-down" class="trigger" href="#">fade-out-down</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on2"/>
+				<label for="on2">Slide</label>
+				<ul class="medium">
+					<li><a id="slide-in-right" class="trigger" href="#">slide-in-right</a></li>
+					<li><a id="slide-in-left" class="trigger" href="#">slide-in-left</a></li>
+					<li><a id="slide-in-up" class="trigger" href="#">slide-in-up</a></li>
+					<li><a id="slide-in-down" class="trigger" href="#">slide-in-down</a></li>
+					<li><a id="slide-out-right" class="trigger" href="#">slide-out-right</a></li>
+					<li><a id="slide-out-left" class="trigger" href="#">slide-out-left</a></li>
+					<li><a id="slide-out-up" class="trigger" href="#">slide-out-up</a></li>
+					<li><a id="slide-out-down" class="trigger" href="#">slide-out-down</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on3"/>
+				<label for="on3">Bounce</label>
+				<ul class="small">
+					<li><a id="bounce-in" class="trigger" href="#">bounce-in</a></li>
+					<li><a id="bounce-in-right" class="trigger" href="#">bounce-in-righ</a></li>
+					<li><a id="bounce-in-left" class="trigger" href="#">bounce-in-left</a></li>
+					<li><a id="bounce-in-up" class="trigger" href="#">bounce-in-up</a></li>
+					<li><a id="bounce-in-down" class="trigger" href="#">bounce-in-down</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on41"/>
+				<label for="on41">Roll</label>
+				<ul class="small">
+					<li><a id="roll-in-right" class="trigger" href="#">roll-in-right</a></li>
+					<li><a id="roll-in-left" class="trigger" href="#">roll-in-left</a></li>
+					<li><a id="roll-out-right" class="trigger" href="#">roll-out-right</a></li>
+					<li><a id="roll-out-left" class="trigger" href="#">roll-out-left</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on4"/>
+				<label for="on4">Rotbo</label>
+				<ul class="small">
+					<li><a id="rotbo-in-right" class="trigger" href="#">rotbo-in-right</a></li>
+					<li><a id="rotbo-in-left" class="trigger" href="#">rotbo-in-left</a></li>
+					<li><a id="rotbo-out-right" class="trigger" href="#">rotbo-out-right</a></li>
+					<li><a id="rotbo-out-left" class="trigger" href="#">rotbo-out-left</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on5"/>
+				<label for="on5">Flip</label>
+				<ul class="small">
+					<li><a id="flip" class="trigger" href="#">flip</a></li>
+					<li><a id="flip-in-x" class="trigger" href="#">flip-in-x</a></li>
+					<li><a id="flip-in-y" class="trigger" href="#">flip-in-y</a></li>
+					<li><a id="flip-out-x" class="trigger" href="#">flip-out-x</a></li>
+					<li><a id="flip-out-y" class="trigger" href="#">flip-out-y</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on6"/>
+				<label for="on6">Rotate</label>
+				<ul class="medium">
+					<li><a id="rotate" class="trigger" href="#">rotate</a></li>
+					<li><a id="rotate-in" class="trigger" href="#">rotate-in</a></li>
+					<li><a id="rotate-out" class="trigger" href="#">rotate-out</a></li>
+					<li><a id="rotate-in-x" class="trigger" href="#">rotate-in-x</a></li>
+					<li><a id="rotate-out-x" class="trigger" href="#">rotate-out-x</a></li>
+					<li><a id="rotate-in-y" class="trigger" href="#">rotate-in-y</a></li>
+					<li><a id="rotate-out-y" class="trigger" href="#">rotate-out-y</a></li>
+					<li><a id="rotate-in-3d" class="trigger" href="#">rotate-in-3d</a></li>
+					<li><a id="rotate-out-3d" class="trigger" href="#">rotate-out-3d</a></li>
+					<li><a id="rotate-in-scale" class="trigger" href="#">rotate-in-scale</a></li>
+					<li><a id="rotate-out-scale" class="trigger" href="#">rotate-out-scale</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on7"/>
+				<label for="on7">Turn</label>
+				<ul class="small">
+					<li><a id="turn-in-x" class="trigger" href="#">turn-in-x</a></li>
+					<li><a id="turn-out-x" class="trigger" href="#">turn-out-x</a></li>
+					<li><a id="turn-in-y" class="trigger" href="#">turn-in-y</a></li>
+					<li><a id="turn-out-y" class="trigger" href="#">turn-out-y</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on8"/>
+				<label for="on8">Back (Scale+Slide)</label>
+				<ul class="medium">
+					<li><a id="back-in-right" class="trigger" href="#">back-in-right</a></li>
+					<li><a id="back-out-right" class="trigger" href="#">back-out-right</a></li>
+					<li><a id="back-in-left" class="trigger" href="#">back-in-left</a></li>
+					<li><a id="back-out-left" class="trigger" href="#">back-out-left</a></li>
+					<li><a id="back-in-up" class="trigger" href="#">back-in-up</a></li>
+					<li><a id="back-out-up" class="trigger" href="#">back-out-up</a></li>
+					<li><a id="back-in-down" class="trigger" href="#">back-in-down</a></li>
+					<li><a id="back-out-down" class="trigger" href="#">back-out-down</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on9"/>
+				<label for="on9">Push</label>
+				<ul class="medium">
+					<li><a id="push-in-up" class="trigger" href="#">push-in-up</a></li>
+					<li><a id="push-out-down" class="trigger" href="#">push-out-down</a></li>
+					<li><a id="push-in-down" class="trigger" href="#">push-in-down</a></li>
+					<li><a id="push-out-up" class="trigger" href="#">push-out-up</a></li>
+					<li><a id="push-in-right" class="trigger" href="#">push-in-right</a></li>
+					<li><a id="push-out-left" class="trigger" href="#">push-out-left</a></li>
+					<li><a id="push-in-left" class="trigger" href="#">push-in-left</a></li>
+					<li><a id="push-out-right" class="trigger" href="#">push-out-right</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on10"/>
+				<label for="on10">Clip</label>
+				<ul class="medium">
+					<li><a id="clip-x-in" class="trigger" href="#">clip-x-in</a></li>
+					<li><a id="clip-y-in" class="trigger" href="#">clip-y-in</a></li>
+					<li><a id="clip-xy-in" class="trigger" href="#">clip-xy-in</a></li>
+					<li><a id="clip-x-out" class="trigger" href="#">clip-x-out</a></li>
+					<li><a id="clip-y-out" class="trigger" href="#">clip-y-out</a></li>
+					<li><a id="clip-xy-out" class="trigger" href="#">clip-xy-out</a></li>
+				</ul>
+			</div>
+			<div>
+				<input type="radio" name="on" id="on17"/>
+				<label for="on17">Else</label>
+				<ul class="big">
+					<li><a id="fanfare" class="trigger" href="#">fanfare</a></li>
+					<li><a id="float" class="trigger" href="#">float</a></li>
+					<li><a id="orbit" class="trigger" href="#">orbit</a></li>
+					<li><a id="spiral" class="trigger" href="#">spiral</a></li>
+					<li><a id="bounce" class="trigger" href="#">bounce</a></li>
+					<li><a id="vibro" class="trigger" href="#">vibro</a></li>
+					<li><a id="heartbeat" class="trigger" href="#">heartbeat</a></li>
+					<li><a id="shake" class="trigger" href="#">shake</a></li>
+					<li><a id="puff" class="trigger" href="#">puff</a></li>
+					<li><a id="scale-in" class="trigger" href="#">scale-in</a></li>
+					<li><a id="scale-out" class="trigger" href="#">scale-out</a></li>
+					<li><a id="stretch" class="trigger" href="#">stretch</a></li>
+					<li><a id="pulse" class="trigger" href="#">pulse</a></li>
+					<li><a id="spin" class="trigger" href="#">spin</a></li>
+					<li><a id="spin-y" class="trigger" href="#">spin-y</a></li>
+					<li><a id="whirl" class="trigger" href="#">whirl</a></li>
+					<li><a id="wabble" class="trigger" href="#">wabble</a></li>
+				 </ul>
+			</div>
+		</div>
+	</aside><!-- .left-sidebar -->
+
+	<div class="middle">
+	
+		<section class="container center">
+			<div class="content">
+				<div class="wrap">
+					<div id="animation" class="animation fade-in-up delay-05s">
+						<div class="red-square"></div>
+						<!--<h1 class="center">Awesome CSS3 animation</h1>-->
+						<img class="superman" src="img/superman.png" />
+						<img class="heart" src="img/heart.png" />
+					</div>
+				</div>
+			</div><!-- .content -->
+		</section><!-- .container-->
+	</div><!-- .middle-->
+	</div>
+	<footer class="fixed">
+		<div class="write">write to me on Email <a href="mailto:hartryfock@gmail.com">hartryfock@gmail.com</a></div>
+		<div class="copyright">© Motion 2015 - 2016</div>
+		<div class="creators">created by <a href="http://pavlyukpetr.com/">Petr Pavlyuk</a><br>design by <a href="http://bilotil.com">Tetiana Bilotil</a></div>
+	</footer>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/awesome-script.js"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+	(w[c] = w[c] || []).push(function() {
+		try {
+			w.yaCounter26760153 = new Ya.Metrika({id:26760153,
+					webvisor:true,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true});
+			yaCounter26760153.addFileExtension('zip');
+		} catch(e) { }
+	});
+
+	var n = d.getElementsByTagName("script")[0],
+		s = d.createElement("script"),
+		f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript";
+	s.async = true;
+	s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+	if (w.opera == "[object Opera]") {
+		d.addEventListener("DOMContentLoaded", f, false);
+	} else { f(); }
+
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/26760153" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>

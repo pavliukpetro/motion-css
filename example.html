@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>Awesome CSS3 animation - example</title>
+	<meta name="keywords" content="css3 animation" />
+	<meta name="description" content="Example of CSS3 animation" />
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/motion.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<header class="header fade-in-down">
+		<div class="wrap-header">
+			<h1>
+				<a href="http://pavlyukpetr.com/awesome/">
+					<span>Motion CSS</span>
+				</a>
+			</h1>
+			<nav>
+			  <a href="documentation.html">documentation</a>
+			  <a href="example.html">example</a>
+			  <a href="http://pavlyukpetr.com/awesome/motion-css.zip">download</a>
+			  <a href="https://github.com/pavlyukpetr/motion-css" target="_blank"">GitHub</a>
+			</nav> 
+		</div>
+	</header><!-- .header-->
+	
+	<section id="example1" class="container center">
+		<div class="content">
+			<h1 id="animation" class="animation rotate-in-scale delay-1s">Motion CSS</h1>
+			<div id="animation" class="animation bounce-in-right delay-2s">
+				<div class="superman-block"><img class="superman" src="img/superman.png" /></div>
+				<div id="animation" class="say-it animation fade-in delay-3s">It's motion!</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="example2">
+			<div class="wrapper center">
+				<h1 id="animation" class="center header2">So easy to use</h1>
+				<div class="wrapp clearfix">
+					<div id="animation" class="col-1-3 delay-05s">
+						<div class="number">1</div>
+						<div class="pattern-text">
+						<p>Add animation stylesheet to your site</p>
+						</div>
+					</div>
+					<div id="animation" class="col-1-3 delay-1s">
+						<div class="number">2</div>
+						<div class="pattern-text">
+						<p>Add a class to the element you want animated</p>
+						</div>
+					</div>
+					<div id="animation" class="col-1-3 delay-1-5s">
+						<div class="number">3</div>
+						<div class="pattern-text">
+						<p>Enjoy a moving animation!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section id="example3">
+		<artile>
+			<div class="wrapper">
+				<div id="animation" class="thumb col-1-2">
+					<img src="img/super-logo.png">
+				</div>
+				<div id="animation" class="post-content col-1-2">
+					<h2>Animation with perspective</h2>
+					<p>To get the 3D effect you need to add an animation class to your element. Then to add the perspective property to the parent element. Here's how it looks in my case: 
+					<pre><code>&lt;div <span style="color:#FFCE53;">class</span>=<span style="color:#E93838">"wrapper"</span>&gt;<br>     &lt;div <span style="color:#FFCE53;">class</span>=<span style="color:#E93838">"animation push-in-right"</span>&gt;&lt;/div&gt;<br>&lt;/div&gt;
+<span style="color:#48BD82">.wrapper {
+perspective: 500px;
+}</span>
+					</code></pre>
+					</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</artile>
+	</section>
+
+	<section id="example4">
+		<div class="wrapper center">
+			<h1 id="animation" class="header4">Over <span class="float delay-2s">80</span> animation effects</h1>
+			<div id="animation" class="wow">wow<span class="">!</span></div>
+		</div>
+	</section>
+
+	<section id="example5">
+		<div class="wrapper center">
+			<h1 id="animation" class="header5">Hope you will love it</h1>
+			<div class="heartbeat"><img src="img/heart.png"></div>
+		</div>
+	</section>
+
+	<section id="example6" class="center">
+		<a href="http://pavlyukpetr.com/awesome/motion-css.zip" class="myButton">DOWNLOAD</a>
+	</section>
+
+	<footer class="example">
+		<div class="write">write to me on Email <a href="mailto:hartryfock@gmail.com">hartryfock@gmail.com</a></div>
+		<div class="copyright">© Motion 2015 - 2016</div>
+		<div class="creators">created by <a href="http://pavlyukpetr.com/">Petr Pavlyuk</a><br>design by <a href="http://bilotil.com">Tetiana Bilotil</a></div>
+	</footer>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<script>
+	$(window).scroll(function(){
+		$('.header2').each(function(){
+			var elPosition = $(this).offset().top;
+			var elHeight = $(this).height();
+			var windowTop = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (elPosition < windowTop + windowHeight - elHeight) {
+				$(this).addClass("animation fanfare");
+			}
+			if (elPosition > windowTop + windowHeight ) {
+				$(this).removeClass("animation fanfare");
+			}
+			if (elPosition + elHeight < windowTop ) {
+				$(this).removeClass("animation fanfare");
+			}
+		});
+	});
+	$(window).scroll(function(){
+		$('.col-1-3').each(function(){
+			var elPosition = $(this).offset().top;
+			var elHeight = $(this).height();
+			var windowTop = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (elPosition < windowTop + windowHeight - elHeight) {
+				$(this).addClass("animation fade-in-up");
+			}
+			if (elPosition > windowTop + windowHeight ) {
+				$(this).removeClass("animation fade-in-up");
+			}
+			if (elPosition + elHeight < windowTop ) {
+				$(this).removeClass("animation fade-in-up");
+			}
+		});
+	});
+	$(window).scroll(function(){
+		$('.thumb').each(function(){
+			var elPosition = $(this).offset().top;
+			var elHeight = $(this).height();
+			var windowTop = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (elPosition < windowTop + windowHeight - elHeight) {
+				$(this).addClass("animation push-in-right");
+			}
+			if (elPosition > windowTop + windowHeight ) {
+				$(this).removeClass("animation push-in-right");
+			}
+			if (elPosition + elHeight < windowTop ) {
+				$(this).removeClass("animation push-in-right");
+			}
+		});
+	});
+	$(window).scroll(function(){
+		$('.post-content').each(function(){
+			var elPosition = $(this).offset().top;
+			var elHeight = $(this).height();
+			var windowTop = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (elPosition < windowTop + windowHeight - elHeight) {
+				$(this).addClass("animation push-in-left");
+			}
+			if (elPosition > windowTop + windowHeight ) {
+				$(this).removeClass("animation push-in-left");
+			}
+			if (elPosition + elHeight < windowTop ) {
+				$(this).removeClass("animation push-in-left");
+			}
+		});
+	});
+	$(window).scroll(function(){
+		$('.header4').each(function(){
+			var elPosition = $(this).offset().top;
+			var elHeight = $(this).height();
+			var windowTop = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (elPosition < windowTop + windowHeight - elHeight) {
+				$(this).addClass("animation scale-in");
+			}
+			if (elPosition > windowTop + windowHeight ) {
+				$(this).removeClass("animation scale-in");
+			}
+			if (elPosition + elHeight < windowTop ) {
+				$(this).removeClass("animation scale-in");
+			}
+		});
+	});
+	$(window).scroll(function(){
+		$('.wow').each(function(){
+			var elPosition = $(this).offset().top;
+			var elHeight = $(this).height();
+			var windowTop = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (elPosition < windowTop + windowHeight - elHeight) {
+				$(this).addClass("animation spin");
+			}
+			if (elPosition > windowTop + windowHeight ) {
+				$(this).removeClass("animation spin");
+			}
+			if (elPosition + elHeight < windowTop ) {
+				$(this).removeClass("animation spin");
+			}
+		});
+	});
+	$(window).scroll(function(){
+		$('.header5').each(function(){
+			var elPosition = $(this).offset().top;
+			var elHeight = $(this).height();
+			var windowTop = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (elPosition < windowTop + windowHeight - elHeight) {
+				$(this).addClass("animation fade-in-right");
+			}
+			if (elPosition > windowTop + windowHeight ) {
+				$(this).removeClass("animation fade-in-right");
+			}
+			if (elPosition + elHeight < windowTop ) {
+				$(this).removeClass("animation fade-in-right");
+			}
+		});
+	});
+	$(window).scroll(function(){
+		$('.myButton').each(function(){
+			var elPosition = $(this).offset().top;
+			var elHeight = $(this).height();
+			var windowTop = $(window).scrollTop();
+			var windowHeight = $(window).height();
+			if (elPosition < windowTop + windowHeight - elHeight) {
+				$(this).addClass("animation shake");
+			}
+			if (elPosition > windowTop + windowHeight ) {
+				$(this).removeClass("animation shake");
+			}
+			if (elPosition + elHeight < windowTop ) {
+				$(this).removeClass("animation shake");
+			}
+		});
+	});
+</script>
+
+</body>
+</html>
