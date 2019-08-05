@@ -1,17 +1,24 @@
 # motion-css
 The library of CSS3 animation
 
-<p><b>Motion CSS</b> is a library of animation for your web projects. It works very simply.
-All you need to do is connect the css file and use a specific class to an element that should be animated.</p>
-<p>The complete list of classes, see <a href="http://pavlyukpetr.github.io/motion-css/">here</a> and here is some <a href="http://pavlyukpetr.github.io/motion-css/example.html">example</a>.</p>
+![GitHub file size in bytes](https://img.shields.io/github/size/pavlyukpetr/motion-css/motion.min.css?color=success&label=css%20file%20size)
+[![GitHub issues](https://img.shields.io/github/issues/pavlyukpetr/motion-css)](https://github.com/pavlyukpetr/motion-css/issues)
+[![GitHub forks](https://img.shields.io/github/forks/pavlyukpetr/motion-css)](https://github.com/pavlyukpetr/motion-css/network)
+[![GitHub stars](https://img.shields.io/github/stars/pavlyukpetr/motion-css)](https://github.com/pavlyukpetr/motion-css/stargazers)
+[![GitHub license](https://img.shields.io/github/license/pavlyukpetr/motion-css)](https://github.com/pavlyukpetr/motion-css/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/pavlyukpetr/motion-css?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fpavlyukpetr%2Fmotion-css)
 
-<h2>Install with NPM</h2>
+<b>Motion CSS</b> is a library of animation for your web projects. It works very simply.
+All you need to do is connect the css file and use a specific class to an element that should be animated.</p>
+<p>The complete list of classes, see <a href="http://pavlyukpetr.github.io/motion-css/">here</a> and here is some <a href="http://pavlyukpetr.github.io/motion-css/example.html">example</a>.
+	
+## Install with NPM
 
 <pre><code>npm install npm i motion-css-animation</code></pre>
 <p>After that you can import it into your style file with:</p>
 <div class="highlight highlight-source-css"><pre><span class="pl-k">@import</span> <span class="pl-s"><span class="pl-pds">'</span>node_modules/motion-css-animation/main<span class="pl-pds">'</span></span>;</pre></div>
 
-<h2>USE</h2>
+## USE
 
 <p>Connect stylesheet in &lt;head&gt; tag on your site:</p>
 
@@ -25,7 +32,7 @@ For example, I want to add animation appearance to the left. It is called "fade-
 
 <p>As you may have guessed, I added a class="animation fade-in-left".</p>
 
-<h2>ADDITIONAL FEATURES</h2>
+## ADDITIONAL FEATURES
 
 <p>If you want to delay the animation, use one of the classes:</p>
 
