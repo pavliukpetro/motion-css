@@ -1,4 +1,4 @@
-# motion-css
+# Motion-CSS3
 The library of CSS3 animation
 
 ![GitHub file size in bytes](https://img.shields.io/github/size/pavlyukpetr/motion-css/motion.min.css?color=success&label=css%20file%20size)
@@ -10,7 +10,7 @@ The library of CSS3 animation
 
 <b>Motion CSS</b> is a library of animation for your web projects. It works very simply.
 All you need to do is connect the css file and use a specific class to an element that should be animated.</p>
-<p>The complete list of classes, see <a href="http://pavlyukpetr.github.io/motion-css/">here</a> and here is some <a href="http://pavlyukpetr.github.io/motion-css/example.html">example</a>.
+<p>The complete list of classes, see <a href="http://pavlyukpetr.github.io/motion-css/">here</a> and here are some <a href="http://pavlyukpetr.github.io/motion-css/example.html">examples</a>.
 	
 ## Install with NPM
 
