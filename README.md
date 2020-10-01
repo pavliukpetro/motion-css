@@ -14,21 +14,21 @@ All you need to do is connect the css file and use a specific class to an elemen
 	
 ## Install with NPM
 
-<pre><code>npm install npm i motion-css-animation</code></pre>
+<pre><code><strong>npm install npm i motion-css-animation</strong></code></pre>
 <p>After that you can import it into your style file with:</p>
-<div class="highlight highlight-source-css"><pre><span class="pl-k">@import</span> <span class="pl-s"><span class="pl-pds">'</span>node_modules/motion-css-animation/main<span class="pl-pds">'</span></span>;</pre></div>
+<div class="highlight highlight-source-css"><pre><strong><span class="pl-k">@import</span> <span class="pl-s"><span class="pl-pds">'</span>node_modules/motion-css-animation/main<span class="pl-pds">'</span></span>;</strong></pre></div>
 
 ## USE
 
 <p>Connect stylesheet in &lt;head&gt; tag on your site:</p>
 
-<pre><code>&lt;link rel="stylesheet" href=<span style="color:#E93838">"motion.min.css"</span>&gt;</code></pre>
+<pre><code><strong>&lt;link rel="stylesheet" href=<span style="color:#E93838">"motion.min.css"</span>&gt;</strong></code></pre>
 
 <p>Add class "animation" to an element that should be animated. Now select the kind of animation for your item and add the appropriate class. 
 The name of the animation is the class that you have to add.
 For example, I want to add animation appearance to the left. It is called "fade-in-left". Here's how it will look my element:
 </p>
-<div class="highlight highlight-html"><pre><code>&lt;div <span style="color:#FFCE53;">class</span>=<span style="color:#E93838">"animation fade-in-left"</span>&gt;...</code></pre></div>
+<div class="highlight highlight-html"><pre><code><strong>&lt;div <span style="color:#FFFFF;">class</span>=<span style="color:#E93838">"animation fade-in-left"</span>&gt;...</strong></code></pre></div>
 
 <p>As you may have guessed, I added a class="animation fade-in-left".</p>
 
