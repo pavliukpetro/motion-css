@@ -12,7 +12,7 @@ The library of CSS3 animation
 All you need to do is connect the css file and use a specific class to an element that should be animated.</p>
 <p>The complete list of classes, see <a href="http://pavlyukpetr.github.io/motion-css/">here</a> and here is some <a href="http://pavlyukpetr.github.io/motion-css/example.html">example</a>.
 	
-## Install with NPM
+## Install with npm
 
 <pre><code>npm install npm i motion-css-animation</code></pre>
 <p>After that you can import it into your style file with:</p>
