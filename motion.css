@@ -6,6 +6,10 @@ create by Petr Pavlyuk  - http://pavlyukpetr.com
 
 Copyright (c) 2015-2016 Petr Pavlyuk
 ------------------------*/
+*{
+	margin:0;
+	padding:0;
+}
 #animation
 {
     visibility: hidden;
