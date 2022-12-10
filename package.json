@@ -2,16 +2,16 @@
     "name": "motion-css-animation",
     "version": "1.0.0",
     "description": "The library of CSS3 animation",
-    "author": "Petr Pavliuk",
+    "author": "Petro Pavliuk",
     "license": "MIT",
     "main": "motion.css",
-    "homepage": "http://pavlyukpetr.github.io/motion-css/",
+    "homepage": "http://pavliukpetro.github.io/motion-css/",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/pavlyukpetr/motion-css.git"
+      "url": "git+https://github.com/pavliukpetro/motion-css.git"
     },
     "bugs": {
-      "url": "https://github.com/pavlyukpetr/motion-css/issues"
+      "url": "https://github.com/pavliukpetro/motion-css/issues"
     },
     "keywords": [
       "css",
