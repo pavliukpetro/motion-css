@@ -1,4 +1,4 @@
-# motion-css
+# Motion-css
 The library of CSS3 animation
 
 ![GitHub file size in bytes](https://img.shields.io/github/size/pavlyukpetr/motion-css/motion.min.css?color=success&label=css%20file%20size)
